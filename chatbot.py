@@ -19,7 +19,7 @@ you should answer them polite, if there is any question out of your kb say you d
 """
 
 # ---- MODEL ----
-model_name_str = 'gemini-1.5-pro'
+model_name_str = "gemini-2.5-flash"
 gemini_model = genai.GenerativeModel(
     model_name=model_name_str,
     system_instruction=prompt
