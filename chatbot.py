@@ -4,7 +4,7 @@ import google.generativeai as genai
 # ---- CONFIG ----
 
 import os
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))    # Replace with your actual API key
+genai.configure(api_key=os.getenv("AQ.Ab8RN6JPQI1EnKkyZR_3zSA8u_wo_YZYP-BF-y-KhP2JJOV7SQ"))    # Replace with your actual API key
 
 # ---- LOAD KB ----
 with open("irctc document.txt", "r") as f:
